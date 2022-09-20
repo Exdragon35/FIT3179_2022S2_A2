@@ -1,0 +1,485 @@
+Entity,Year,SSTA
+Global,1900,-0.23602
+Global,1901,-0.36399
+Global,1902,-0.4537
+Global,1903,-0.57443
+Global,1904,-0.60236
+Global,1905,-0.43521
+Global,1906,-0.38451
+Global,1907,-0.46854
+Global,1908,-0.5687
+Global,1909,-0.58671
+Global,1910,-0.58422
+Global,1911,-0.58624
+Global,1912,-0.45112
+Global,1913,-0.48329
+Global,1914,-0.33749
+Global,1915,-0.22696
+Global,1916,-0.41508
+Global,1917,-0.45933
+Global,1918,-0.41373
+Global,1919,-0.36713
+Global,1920,-0.28462
+Global,1921,-0.25981
+Global,1922,-0.34122
+Global,1923,-0.31834
+Global,1924,-0.31222
+Global,1925,-0.26628
+Global,1926,-0.14287
+Global,1927,-0.2165
+Global,1928,-0.24909
+Global,1929,-0.32
+Global,1930,-0.16838
+Global,1931,-0.1115
+Global,1932,-0.19265
+Global,1933,-0.26562
+Global,1934,-0.20761
+Global,1935,-0.21589
+Global,1936,-0.17797
+Global,1937,-0.03873
+Global,1938,-0.11749
+Global,1939,-0.10255
+Global,1940,-0.01199
+Global,1941,0.00327
+Global,1942,0.04635
+Global,1943,0.04031
+Global,1944,0.19544
+Global,1945,0.19232
+Global,1946,-0.0779
+Global,1947,-0.14807
+Global,1948,-0.13325
+Global,1949,-0.10949
+Global,1950,-0.12455
+Global,1951,-0.02012
+Global,1952,0.06937
+Global,1953,0.07613
+Global,1954,-0.11056
+Global,1955,-0.18698
+Global,1956,-0.20024
+Global,1957,0.00168
+Global,1958,0.02431
+Global,1959,-0.02973
+Global,1960,-0.07483
+Global,1961,-0.02732
+Global,1962,-0.08224
+Global,1963,-0.03526
+Global,1964,-0.24036
+Global,1965,-0.20315
+Global,1966,-0.09263
+Global,1967,-0.15086
+Global,1968,-0.15229
+Global,1969,0.01328
+Global,1970,-0.09424
+Global,1971,-0.25558
+Global,1972,-0.02319
+Global,1973,0.01075
+Global,1974,-0.14716
+Global,1975,-0.15448
+Global,1976,-0.13235
+Global,1977,0.07836
+Global,1978,0.02786
+Global,1979,0.14543
+Global,1980,0.14203
+Global,1981,0.11512
+Global,1982,0.09825
+Global,1983,0.1946
+Global,1984,0.06038
+Global,1985,0.04476
+Global,1986,0.0739
+Global,1987,0.23264
+Global,1988,0.20845
+Global,1989,0.16803
+Global,1990,0.29425
+Global,1991,0.27296
+Global,1992,0.17579
+Global,1993,0.20568
+Global,1994,0.24524
+Global,1995,0.30009
+Global,1996,0.23714
+Global,1997,0.42091
+Global,1998,0.51006
+Global,1999,0.27619
+Global,2000,0.28053
+Global,2001,0.39199
+Global,2002,0.43434
+Global,2003,0.45946
+Global,2004,0.4376
+Global,2005,0.44789
+Global,2006,0.42388
+Global,2007,0.35835
+Global,2008,0.33213
+Global,2009,0.4801
+Global,2010,0.48557
+Global,2011,0.37851
+Global,2012,0.44911
+Global,2013,0.47344
+Global,2014,0.57639
+Global,2015,0.70045
+Global,2016,0.71945
+Global,2017,0.64483
+Global,2018,0.61641
+Global,2019,0.71702
+Global,2020,0.70998
+Northern Hemisphere,1900,-0.07819
+Northern Hemisphere,1901,-0.24849
+Northern Hemisphere,1902,-0.3918
+Northern Hemisphere,1903,-0.49264
+Northern Hemisphere,1904,-0.57373
+Northern Hemisphere,1905,-0.40044
+Northern Hemisphere,1906,-0.33631
+Northern Hemisphere,1907,-0.44558
+Northern Hemisphere,1908,-0.52417
+Northern Hemisphere,1909,-0.52935
+Northern Hemisphere,1910,-0.5445
+Northern Hemisphere,1911,-0.46702
+Northern Hemisphere,1912,-0.42531
+Northern Hemisphere,1913,-0.53469
+Northern Hemisphere,1914,-0.33924
+Northern Hemisphere,1915,-0.1897
+Northern Hemisphere,1916,-0.42129
+Northern Hemisphere,1917,-0.4606
+Northern Hemisphere,1918,-0.4544
+Northern Hemisphere,1919,-0.38187
+Northern Hemisphere,1920,-0.32348
+Northern Hemisphere,1921,-0.22673
+Northern Hemisphere,1922,-0.29582
+Northern Hemisphere,1923,-0.29836
+Northern Hemisphere,1924,-0.24975
+Northern Hemisphere,1925,-0.21979
+Northern Hemisphere,1926,-0.04269
+Northern Hemisphere,1927,-0.09865
+Northern Hemisphere,1928,-0.16752
+Northern Hemisphere,1929,-0.22852
+Northern Hemisphere,1930,-0.05307
+Northern Hemisphere,1931,-0.03009
+Northern Hemisphere,1932,-0.14323
+Northern Hemisphere,1933,-0.17368
+Northern Hemisphere,1934,-0.17335
+Northern Hemisphere,1935,-0.14515
+Northern Hemisphere,1936,-0.0602
+Northern Hemisphere,1937,0.07546
+Northern Hemisphere,1938,-0.06008
+Northern Hemisphere,1939,-0.09279
+Northern Hemisphere,1940,-0.0274
+Northern Hemisphere,1941,0.0216
+Northern Hemisphere,1942,0.13673
+Northern Hemisphere,1943,0.09311
+Northern Hemisphere,1944,0.22701
+Northern Hemisphere,1945,0.24019
+Northern Hemisphere,1946,0.04629
+Northern Hemisphere,1947,-0.07262
+Northern Hemisphere,1948,-0.03049
+Northern Hemisphere,1949,-0.05113
+Northern Hemisphere,1950,-0.03175
+Northern Hemisphere,1951,0.13304
+Northern Hemisphere,1952,0.13137
+Northern Hemisphere,1953,0.13419
+Northern Hemisphere,1954,-0.02413
+Northern Hemisphere,1955,-0.08925
+Northern Hemisphere,1956,-0.15927
+Northern Hemisphere,1957,0.05476
+Northern Hemisphere,1958,0.13829
+Northern Hemisphere,1959,0.04891
+Northern Hemisphere,1960,0.00403
+Northern Hemisphere,1961,0.01988
+Northern Hemisphere,1962,-0.03164
+Northern Hemisphere,1963,0.05411
+Northern Hemisphere,1964,-0.13576
+Northern Hemisphere,1965,-0.15735
+Northern Hemisphere,1966,0.03296
+Northern Hemisphere,1967,-0.02786
+Northern Hemisphere,1968,-0.06266
+Northern Hemisphere,1969,0.00904
+Northern Hemisphere,1970,-0.08445
+Northern Hemisphere,1971,-0.28141
+Northern Hemisphere,1972,-0.11321
+Northern Hemisphere,1973,-0.05486
+Northern Hemisphere,1974,-0.19187
+Northern Hemisphere,1975,-0.19404
+Northern Hemisphere,1976,-0.18453
+Northern Hemisphere,1977,0.02875
+Northern Hemisphere,1978,0.02351
+Northern Hemisphere,1979,0.11557
+Northern Hemisphere,1980,0.11814
+Northern Hemisphere,1981,0.11871
+Northern Hemisphere,1982,0.09709
+Northern Hemisphere,1983,0.13134
+Northern Hemisphere,1984,-0.01035
+Northern Hemisphere,1985,-0.05292
+Northern Hemisphere,1986,0.02305
+Northern Hemisphere,1987,0.18199
+Northern Hemisphere,1988,0.18924
+Northern Hemisphere,1989,0.16616
+Northern Hemisphere,1990,0.3433
+Northern Hemisphere,1991,0.29117
+Northern Hemisphere,1992,0.16649
+Northern Hemisphere,1993,0.17764
+Northern Hemisphere,1994,0.30743
+Northern Hemisphere,1995,0.37636
+Northern Hemisphere,1996,0.24322
+Northern Hemisphere,1997,0.46561
+Northern Hemisphere,1998,0.54005
+Northern Hemisphere,1999,0.30584
+Northern Hemisphere,2000,0.32846
+Northern Hemisphere,2001,0.43002
+Northern Hemisphere,2002,0.45919
+Northern Hemisphere,2003,0.53578
+Northern Hemisphere,2004,0.54965
+Northern Hemisphere,2005,0.55676
+Northern Hemisphere,2006,0.51703
+Northern Hemisphere,2007,0.46049
+Northern Hemisphere,2008,0.43452
+Northern Hemisphere,2009,0.51944
+Northern Hemisphere,2010,0.55668
+Northern Hemisphere,2011,0.41673
+Northern Hemisphere,2012,0.52636
+Northern Hemisphere,2013,0.55485
+Northern Hemisphere,2014,0.71281
+Northern Hemisphere,2015,0.86102
+Northern Hemisphere,2016,0.85601
+Northern Hemisphere,2017,0.78167
+Northern Hemisphere,2018,0.73886
+Northern Hemisphere,2019,0.85743
+Northern Hemisphere,2020,0.92974
+Southern Hemisphere,1900,-0.36784
+Southern Hemisphere,1901,-0.46638
+Southern Hemisphere,1902,-0.51021
+Southern Hemisphere,1903,-0.64332
+Southern Hemisphere,1904,-0.62852
+Southern Hemisphere,1905,-0.46958
+Southern Hemisphere,1906,-0.43078
+Southern Hemisphere,1907,-0.49207
+Southern Hemisphere,1908,-0.61625
+Southern Hemisphere,1909,-0.64512
+Southern Hemisphere,1910,-0.62274
+Southern Hemisphere,1911,-0.70471
+Southern Hemisphere,1912,-0.47475
+Southern Hemisphere,1913,-0.43069
+Southern Hemisphere,1914,-0.33231
+Southern Hemisphere,1915,-0.28513
+Southern Hemisphere,1916,-0.40872
+Southern Hemisphere,1917,-0.45188
+Southern Hemisphere,1918,-0.32836
+Southern Hemisphere,1919,-0.33696
+Southern Hemisphere,1920,-0.22016
+Southern Hemisphere,1921,-0.30338
+Southern Hemisphere,1922,-0.39556
+Southern Hemisphere,1923,-0.34178
+Southern Hemisphere,1924,-0.38679
+Southern Hemisphere,1925,-0.32263
+Southern Hemisphere,1926,-0.25889
+Southern Hemisphere,1927,-0.34354
+Southern Hemisphere,1928,-0.34139
+Southern Hemisphere,1929,-0.4269
+Southern Hemisphere,1930,-0.31147
+Southern Hemisphere,1931,-0.20996
+Southern Hemisphere,1932,-0.25344
+Southern Hemisphere,1933,-0.37665
+Southern Hemisphere,1934,-0.25018
+Southern Hemisphere,1935,-0.29573
+Southern Hemisphere,1936,-0.30153
+Southern Hemisphere,1937,-0.1637
+Southern Hemisphere,1938,-0.17969
+Southern Hemisphere,1939,-0.13435
+Southern Hemisphere,1940,0.01625
+Southern Hemisphere,1941,-0.02707
+Southern Hemisphere,1942,-0.08219
+Southern Hemisphere,1943,-0.03588
+Southern Hemisphere,1944,0.13325
+Southern Hemisphere,1945,0.08786
+Southern Hemisphere,1946,-0.231
+Southern Hemisphere,1947,-0.23693
+Southern Hemisphere,1948,-0.24683
+Southern Hemisphere,1949,-0.17854
+Southern Hemisphere,1950,-0.22624
+Southern Hemisphere,1951,-0.20372
+Southern Hemisphere,1952,-0.00552
+Southern Hemisphere,1953,0.0028
+Southern Hemisphere,1954,-0.21646
+Southern Hemisphere,1955,-0.30794
+Southern Hemisphere,1956,-0.2411
+Southern Hemisphere,1957,-0.05904
+Southern Hemisphere,1958,-0.1067
+Southern Hemisphere,1959,-0.11719
+Southern Hemisphere,1960,-0.16209
+Southern Hemisphere,1961,-0.07756
+Southern Hemisphere,1962,-0.1368
+Southern Hemisphere,1963,-0.13215
+Southern Hemisphere,1964,-0.34867
+Southern Hemisphere,1965,-0.24989
+Southern Hemisphere,1966,-0.22728
+Southern Hemisphere,1967,-0.28703
+Southern Hemisphere,1968,-0.25038
+Southern Hemisphere,1969,0.0193
+Southern Hemisphere,1970,-0.10567
+Southern Hemisphere,1971,-0.22679
+Southern Hemisphere,1972,0.06555
+Southern Hemisphere,1973,0.07664
+Southern Hemisphere,1974,-0.09776
+Southern Hemisphere,1975,-0.11066
+Southern Hemisphere,1976,-0.07631
+Southern Hemisphere,1977,0.12641
+Southern Hemisphere,1978,0.0333
+Southern Hemisphere,1979,0.17305
+Southern Hemisphere,1980,0.16289
+Southern Hemisphere,1981,0.1116
+Southern Hemisphere,1982,0.10279
+Southern Hemisphere,1983,0.25301
+Southern Hemisphere,1984,0.12665
+Southern Hemisphere,1985,0.13211
+Southern Hemisphere,1986,0.11983
+Southern Hemisphere,1987,0.27675
+Southern Hemisphere,1988,0.22566
+Southern Hemisphere,1989,0.16678
+Southern Hemisphere,1990,0.24439
+Southern Hemisphere,1991,0.25616
+Southern Hemisphere,1992,0.18537
+Southern Hemisphere,1993,0.23383
+Southern Hemisphere,1994,0.18262
+Southern Hemisphere,1995,0.22653
+Southern Hemisphere,1996,0.22948
+Southern Hemisphere,1997,0.37814
+Southern Hemisphere,1998,0.47908
+Southern Hemisphere,1999,0.24633
+Southern Hemisphere,2000,0.23099
+Southern Hemisphere,2001,0.35358
+Southern Hemisphere,2002,0.40908
+Southern Hemisphere,2003,0.38488
+Southern Hemisphere,2004,0.33035
+Southern Hemisphere,2005,0.34459
+Southern Hemisphere,2006,0.33756
+Southern Hemisphere,2007,0.26591
+Southern Hemisphere,2008,0.24081
+Southern Hemisphere,2009,0.4418
+Southern Hemisphere,2010,0.42176
+Southern Hemisphere,2011,0.3414
+Southern Hemisphere,2012,0.37521
+Southern Hemisphere,2013,0.38887
+Southern Hemisphere,2014,0.44205
+Southern Hemisphere,2015,0.55256
+Southern Hemisphere,2016,0.59633
+Southern Hemisphere,2017,0.52084
+Southern Hemisphere,2018,0.50549
+Southern Hemisphere,2019,0.58543
+Southern Hemisphere,2020,0.50689
+Tropics,1900,-0.04336
+Tropics,1901,-0.24358
+Tropics,1902,-0.33935
+Tropics,1903,-0.48479
+Tropics,1904,-0.68078
+Tropics,1905,-0.34063
+Tropics,1906,-0.36615
+Tropics,1907,-0.46982
+Tropics,1908,-0.61605
+Tropics,1909,-0.5626
+Tropics,1910,-0.54728
+Tropics,1911,-0.58119
+Tropics,1912,-0.31268
+Tropics,1913,-0.39491
+Tropics,1914,-0.25395
+Tropics,1915,-0.11649
+Tropics,1916,-0.49627
+Tropics,1917,-0.56981
+Tropics,1918,-0.4237
+Tropics,1919,-0.30032
+Tropics,1920,-0.3144
+Tropics,1921,-0.27673
+Tropics,1922,-0.37487
+Tropics,1923,-0.2988
+Tropics,1924,-0.27693
+Tropics,1925,-0.24614
+Tropics,1926,0.04348
+Tropics,1927,-0.14542
+Tropics,1928,-0.1986
+Tropics,1929,-0.28749
+Tropics,1930,-0.08475
+Tropics,1931,0.07969
+Tropics,1932,-0.17454
+Tropics,1933,-0.26331
+Tropics,1934,-0.26412
+Tropics,1935,-0.20433
+Tropics,1936,-0.13357
+Tropics,1937,0.0003
+Tropics,1938,-0.22907
+Tropics,1939,-0.19015
+Tropics,1940,0.14966
+Tropics,1941,0.18326
+Tropics,1942,-0.04279
+Tropics,1943,-0.12386
+Tropics,1944,0.12369
+Tropics,1945,0.14594
+Tropics,1946,-0.09453
+Tropics,1947,-0.11286
+Tropics,1948,-0.153
+Tropics,1949,-0.21778
+Tropics,1950,-0.30972
+Tropics,1951,-0.04554
+Tropics,1952,0.01694
+Tropics,1953,0.09621
+Tropics,1954,-0.23071
+Tropics,1955,-0.37791
+Tropics,1956,-0.3631
+Tropics,1957,0.02676
+Tropics,1958,0.09415
+Tropics,1959,-0.03658
+Tropics,1960,-0.1026
+Tropics,1961,-0.13676
+Tropics,1962,-0.17795
+Tropics,1963,0.03342
+Tropics,1964,-0.24315
+Tropics,1965,-0.14781
+Tropics,1966,-0.01644
+Tropics,1967,-0.28456
+Tropics,1968,-0.19284
+Tropics,1969,0.16513
+Tropics,1970,-0.11834
+Tropics,1971,-0.42421
+Tropics,1972,0.06341
+Tropics,1973,0.02229
+Tropics,1974,-0.30312
+Tropics,1975,-0.36046
+Tropics,1976,-0.19696
+Tropics,1977,0.08217
+Tropics,1978,0.00613
+Tropics,1979,0.15591
+Tropics,1980,0.18832
+Tropics,1981,0.09292
+Tropics,1982,0.22216
+Tropics,1983,0.36222
+Tropics,1984,0.06755
+Tropics,1985,-0.04512
+Tropics,1986,0.11925
+Tropics,1987,0.47569
+Tropics,1988,0.26985
+Tropics,1989,0.07459
+Tropics,1990,0.28776
+Tropics,1991,0.3265
+Tropics,1992,0.25408
+Tropics,1993,0.26801
+Tropics,1994,0.28225
+Tropics,1995,0.38617
+Tropics,1996,0.26192
+Tropics,1997,0.50692
+Tropics,1998,0.64461
+Tropics,1999,0.12757
+Tropics,2000,0.17346
+Tropics,2001,0.33835
+Tropics,2002,0.48184
+Tropics,2003,0.52864
+Tropics,2004,0.4374
+Tropics,2005,0.45416
+Tropics,2006,0.43658
+Tropics,2007,0.32347
+Tropics,2008,0.23972
+Tropics,2009,0.54985
+Tropics,2010,0.52412
+Tropics,2011,0.22253
+Tropics,2012,0.37905
+Tropics,2013,0.42168
+Tropics,2014,0.54282
+Tropics,2015,0.80844
+Tropics,2016,0.83837
+Tropics,2017,0.64178
+Tropics,2018,0.51342
+Tropics,2019,0.72706
+Tropics,2020,0.72565
