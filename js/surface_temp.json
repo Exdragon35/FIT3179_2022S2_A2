@@ -4,7 +4,10 @@
   "title": "Sea Surface Temperature Anomaly (1900-2020)",
   "width": 1200,
   "height": 500,
-  "encoding": {"x": {"field": "Year", "type": "ordinal"}},
+  "encoding": {"x": {"field": "Year", 
+                     "type": "ordinal", 
+                     "axis": {"labels": false,
+                              "ticks": false}}},
   "layer": [
     {
       "encoding": {
