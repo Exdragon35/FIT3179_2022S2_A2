@@ -1,9 +1,9 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "clean_data/sea-surface-temperature-anomaly.csv"},
+  "data": {"url": "clean_data/surface.csv"},
   "title": "Sea Surface Temperature Anomaly (1900-2020)",
-  "width": 900,
-  "height": 300,
+  "width": 750,
+  "height": 400,
   "encoding": {"x": {"field": "Year", 
                      "type": "ordinal", 
                      "axis": {"labels": false,
