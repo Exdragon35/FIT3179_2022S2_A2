@@ -2,22 +2,14 @@ h1{
 	color: rgb(16, 23, 92);
 	font-family: 'Cambria';
 	font-size: 40px;
+	font-weight: 900;
 }
 /* For text in body*/
 p{
 	color: rgb(16, 23, 92);
 	font-family: 'Cambria';
 	font-size: 20px;
-}
-.page {
-	width: 900px;
-	background-color: white;
-	margin: auto;
-	padding: 50px;
-	padding-top: 35px;
-  }
-body {
-  background-color: lightgray;
+	font-weight: 100;
 }
 .NameAndID {
 	font-family: 'Cambria';
