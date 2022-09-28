@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Air Pollution Death Rate v.s. Use of Fossil Fuel in each Country and Year-(1990-2019)",
-    "width": 800,
+    "width": 700,
     "height": 600,
     "title": "Air Pollution Death Rate v.s. Use of Fossil Fuel in each Country and Year-(1990-2019)",
     "data": {"url": "clean_data/poll_death.csv"},
