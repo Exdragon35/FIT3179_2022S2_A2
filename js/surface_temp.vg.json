@@ -2,8 +2,8 @@
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "clean_data/sea-surface-temperature-anomaly.csv"},
   "title": "Sea Surface Temperature Anomaly (1900-2020)",
-  "width": 1200,
-  "height": 500,
+  "width": 900,
+  "height": 300,
   "encoding": {"x": {"field": "Year", 
                      "type": "ordinal", 
                      "axis": {"labels": false,
@@ -11,7 +11,7 @@
   "layer": [
     {
       "encoding": {
-        "color": {"field": "Entity", "type": "nominal"},
+        "color": {"field": "Entity", "type": "nominal", "legend":{"orient": "none", "legendX":10, "legendY":5}},
         "y": {"field": "SSTA","type": "quantitative", "scale": {"domain": [-1, 1]}}
       },
       "layer": [

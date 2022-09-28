@@ -7,5 +7,20 @@ h1{
 p{
 	color: rgb(16, 23, 92);
 	font-family: 'Cambria';
-	font-size: 25px;
+	font-size: 20px;
+}
+.page {
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+	padding: 50px;
+	padding-top: 35px;
+  }
+body {
+  background-color: lightgray;
+}
+.NameAndID {
+	font-family: 'Cambria';
+	font-size: 16px;
+	font-style: italic;
 }

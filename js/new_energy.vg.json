@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Renewables Energy(TWh growth equivalent)-2020",
+  "data": {
+    "url": "clean_data/new_energy.csv"
+  },
+  "width": 800,
+  "height": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Renewables(TWh_growth_equivalent)",
+      "type": "quantitative",
+      "title": "Renewables energy(TWh growth equivalent)"
+    },
+    "y": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": "Entity",
+      "sort": "-x",
+      "axis": {
+        "offset": 4,
+        "ticks": false,
+        "minExtent": 60,
+        "domain": false
+      }
+    },
+    "tooltip":[{"field": "Entity", "type": "nominal", "title": "Entity"},
+    {"field": "Renewables(TWh_growth_equivalent)", "type": "quantitative", "title": "Renewables Energy"}]
+  }
+}
+

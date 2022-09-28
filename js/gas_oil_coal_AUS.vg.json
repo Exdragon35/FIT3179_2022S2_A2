@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Fossil fuel per capita (Australia)",
+  "width": 350, "height": 350,
+  "data": {"url": "clean_data/Australia_pivot.csv"},
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year", "field": "Year",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+      "aggregate": "sum", "field": "Value"
+    },
+    "color": {
+      "field": "Category",
+      "scale": {"scheme": "category20b"},
+      "legend":{"orient": "none", "legendX": 3, "legendY": 3}
+    },
+    "tooltip": [{"field": "Year", "timeUnit": "year"},
+                {"field": "Value", "type": "nominal"}]
+  }
+}

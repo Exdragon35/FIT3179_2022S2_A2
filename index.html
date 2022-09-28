@@ -5,30 +5,124 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  
+
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
 </head>
 <body>
-  <center>
-<h1> Development, Energy and Environment</h1>
-<div id="GDP-2010_map"></div>
-<p>On a longer time period, we can see the change of climate since people start industrialisation:</p>
-<div id="surface_temp"></div>
-<p>On</p>
 
-<script type="text/javascript">
-  var spec2 = "js/GDP-2010_map.vg.json";
-  vegaEmbed('#GDP-2010_map', spec2).then(function(result) {
+  <div class="page">
+    <!-- Header -->
+    <div>
+      <h1> Development, Energy and Environment</h1>
+      <div class="NameAndID">Name: Xiaolong Shen</div>
+      <div class="NameAndID">Monash ID:29963559</div>
+    </div>
+    
+    <!-- 1st Graph Block -->
+    <div>
+      <div> 
+        <p>On a longer time period, we can see the change of climate since people start industrialisation:</p>
+      </div>
+      <div style="text-align:center;">
+        <div id="co2-2000_map"></div>
+        <div id="co2-2020_map"></div>
+      </div>
+      <div> 
+        <p>In the 20 years, Developing Countries and Areas has developed a lot and leading the increasing of dioxide emmisions, 
+          considering the future growth and industrialisation in those areas, it has become a critical and serious environment problem now.</p>
+      </div>
+    </div>
+
+    <!-- 2nd Graph Block -->
+    <div>
+      <div> 
+        <p>Sice human start industrialisation, with use of fossil fuel, the temperature of sea surface has increaed a lot, and affected the global climate.
+          extreme weather is more frequently occurring and causes not high or low temperature, but affect the food production and may causes human rights and 
+          people's livelihood issues.Here is the change of sea surface temperature in the past 120 years:       
+        </p>
+      </div>
+      <div style="text-align:center;">
+        <div id="surface_temp"></div>
+      </div>
+      <p>
+        The overall trend is growth. Whish is not a good signal for global climate.
+      </p>
+    </div>
+
+    <!-- 3rd Graph Block -->
+    <div>
+      <div> 
+        <p>Sample TextSample TextSample TextSample TextSample TextSample
+          TextSample TextSample TextSample TextSample TextSample TextSample 
+          TextSample TextSample TextSample TextSample Text</p>
+      </div>
+      <div style="text-align:center;">
+        <div id="gas_oil_coal_AUS"></div>
+        <div id="gas_oil_coal_CN"></div>
+      </div>
+    </div>
+
+    <!-- 4th Graph Block -->
+    <div>
+      <div> 
+        <p>Air population case death, the total usage of fossil fuel has some positive relationship with death rates of air pollution</p>
+      </div>
+      <div style="text-align:center;">
+        <div id="death_pop"></div>
+      </div>
+    </div>
+    
+    <!-- 5th Graph Block -->
+    <div>
+      <div> 
+        <p>To avoid that future come to truth, people start using more and more Renewable Energy, until 2020, here is the situation of 
+          global renewable energy. China has its need to quickly reduce fossil fuel usage and do a lot on renewable energy. Australia 
+          do not have such high need due to the high amount of fossil fuel reserves(coal), so it was not develop too much on renewable energy production.
+        </p>
+      </div>
+      <div style="text-align:center;">
+        <div id="new_energy"></div>
+      </div>
+    </div>
+  
+  </div> <!-- end page -->
+  
+  <script type="text/javascript">
+  var spec1 = "js/co2-2000_map.vg.json";
+  vegaEmbed('#co2-2000_map', spec1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  var spec2 = "js/surface_temp.json";
-  vegaEmbed('#surface_temp', spec2).then(function(result) {
+  var spec2 = "js/co2-2020_map.vg.json";
+  vegaEmbed('#co2-2020_map', spec2, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-</script>
-  </center>
+
+  var spec3 = "js/surface_tem.vg.json";
+  vegaEmbed('#surface_temp', spec3, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec4 = "js/gas_oil_coal_AUS.vg.json";
+  vegaEmbed('#gas_oil_coal_AUS', spec4, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  var spec5 = "js/gas_oil_coal_CN.vg.json";
+  vegaEmbed('#gas_oil_coal_CN', spec5, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec6 = "js/new_energy.vg.json";
+  vegaEmbed('#new_energy', spec6, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var spec7 = "js/death.vg.json";
+  vegaEmbed('#death_pop', spec7, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  </script>
 </body>
 </html>
