@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Fossil fuel per capita(China)",
+    "title": "Fossil fuel per capita(China-1980-2020)",
     "width": 350, "height": 350,
     "data": {"url": "clean_data/China_pivot.csv"},
     "mark": "area",

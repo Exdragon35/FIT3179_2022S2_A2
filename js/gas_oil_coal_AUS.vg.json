@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Fossil fuel per capita (Australia)",
+  "title": "Fossil fuel per capita (Australia-1980-2020)",
   "width": 350, "height": 350,
   "data": {"url": "clean_data/Australia_pivot.csv"},
   "mark": "area",
