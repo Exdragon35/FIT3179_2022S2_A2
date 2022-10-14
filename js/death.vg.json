@@ -19,10 +19,12 @@
     ],
     "mark": {"type": "circle", "size": 200, "opacity": 0.9},
     "encoding": {
-        "x": {"field":"fossil_use(kWh)", "type": "quantitative", "scale":{"type": "log", "domain": [10000000000, 50000000000000]}, 
-              "title": "Fossil fuel use in each year (kWh)"},
-        "y": {"field":"death_rate", "type":"quantitative", "scale":{"domain": [0, 0.002], "type":"linear"}, "title": "Death rate(%)"},
-        "color": {"field":"country", "type": "nominal", "title": "Country"},
+        "x": {"field":"fossil_use(TWh)", "type": "quantitative", 
+            "scale":{"type": "log", "domain": [50, 40000]}, 
+              "title": "Fossil fuel use in each year (TWh)",
+            "axis": {"grid": false}},
+        "y": {"field":"death_rate(%)", "type":"quantitative", "scale":{"domain": [0, 0.2], "type":"linear"}, "title": "Death rate(%)"},
+        "color": {"field":"country", "type": "nominal", "title": "Country", "scale": {"scheme": "tableau20"}},
         "fillOpacity": {
             "condition": {"param": "select", "value": 1},
             "value": 0.3
@@ -45,8 +47,8 @@
         "tooltip": [
             {"field":"country", "type": "nominal", "title": "Country"},
             {"field":"year", "type": "nominal", "title": "Year"},
-            {"field":"death_rate", "type":"quantitative", "title": "Death Reate(%)"},
-            {"field":"fossil_use(kWh)", "type":"quantitative", "title": "Fossil fuel use(kWh)"}
+            {"field":"death_rate(%)", "type":"quantitative", "title": "Death Reate(%)", "format": ".2f"},
+            {"field":"fossil_use(TWh)", "type":"quantitative", "title": "Fossil fuel use(TWh)","format": ".2f"}
             
         ]
     }

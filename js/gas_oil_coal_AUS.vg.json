@@ -7,10 +7,11 @@
   "encoding": {
     "x": {
       "timeUnit": "year", "field": "Year",
-      "axis": {"format": "%Y"}
+      "axis": {"format": "%Y", "grid": false}
     },
     "y": {
-      "aggregate": "sum", "field": "Value"
+      "aggregate": "sum", "field": "Value",
+      "axis": {"grid": false}
     },
     "color": {
       "field": "Category",
@@ -18,6 +19,6 @@
       "legend":{"orient": "none", "legendX": 3, "legendY": 3}
     },
     "tooltip": [{"field": "Year", "timeUnit": "year"},
-                {"field": "Value", "type": "nominal"}]
+                {"field": "Value", "type": "nominal", "format": ".2f"}]
   }
 }

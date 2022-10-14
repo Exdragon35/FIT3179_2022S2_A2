@@ -1,50 +1,48 @@
 {
-"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "clean_data/surface.csv"},
-  "title": "Sea Surface Temperature Anomaly (1900-2020)",
-  "width": 750,
-  "height": 400,
-  "encoding": {"x": {"field": "Year", 
-                     "type": "ordinal", 
-                     "axis": {"labels": false,
-                              "ticks": false}}},
-  "layer": [
-    {
+  "title": {"text": "Sea Surface Temperature Anomaly (1900-2020)","anchor": "middle"},
+  "vconcat": [
+      {"mark": "line",
+      "width": 750,
+      "height": 480,
       "encoding": {
-        "color": {"field": "Entity", "type": "nominal", "legend":{"orient": "none", "legendX":10, "legendY":5}},
-        "y": {"field": "SSTA","type": "quantitative", "scale": {"domain": [-1, 1]}}
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "scale": {"domain": {"param": "brush"}},
+        "axis": {"title": "Year", "grid": false}
       },
-      "layer": [
-        {"mark": "line"},
-        {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
-      ]
-    },
-    {
-      "transform": [{"pivot": "Entity", "value": "SSTA", "groupby": ["Year"]}],
-      "mark": "rule",
-      "encoding": {
-        "opacity": {
-          "condition": {"value": 0.3, "param": "hover", "empty": false},
-          "value": 0
-        },
-        "tooltip": [
-          {"field": "Year", "type": "ordinal"},
-          {"field": "Global", "type": "quantitative"},
-          {"field": "Northern Hemisphere", "type": "quantitative"},
-          {"field": "Southern Hemisphere", "type": "quantitative"},
-          {"field": "Tropics", "type": "quantitative"}
-        ]
-      },
-      "params": [{
-        "name": "hover",
-        "select": {
-          "type": "point",
-          "fields": ["Year"],
-          "nearest": true,
-          "on": "mouseover",
-          "clear": "mouseout"
-        }
-      }]
+
+        "color": {"field": "Entity", "type": "nominal", "legend":{"orient": "none", "legendX":10, "legendY":5}, "scale": {"scheme": "tableau20"}},
+        
+        "y": {"field": "SSTA","type": "quantitative", "scale": {"domain": [-1, 1]}},
+        "tooltip":[{"field": "Year", "type": "temporal", "title": "value"},
+                   {"field": "SSTA", "type": "quantitative", "title": "value",
+                   "format":".2f"}]
+      }
+    },{
+      "mark": "line",
+      "width": 750,
+    "height": 100,
+    "params": [{
+      "name": "brush",
+      "select": {"type": "interval", "encodings": ["x"]}
+    }],
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "axis": {"grid": false}},
+      "color": {"field": "Entity", "type": "nominal", 
+                "legend":{"orient": "none", "legendX":10, "legendY":5},
+                "scale": {"scheme": "tableau20"}},
+      "y": {
+        "field": "SSTA",
+        "type": "quantitative",
+        "axis": {"tickCount": 3, "grid": false}}
     }
-  ]
+  }
+]
+
 }

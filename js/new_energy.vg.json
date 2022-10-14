@@ -26,7 +26,8 @@
       }
     },
     "tooltip":[{"field": "Entity", "type": "nominal", "title": "Entity"},
-    {"field": "Renewables(TWh_growth_equivalent)", "type": "quantitative", "title": "Renewables Energy"}]
+    {"field": "Renewables(TWh_growth_equivalent)", "type": "quantitative", 
+              "title": "Renewables Energy(TWh)", "format": ".2f"}]
   }
 }
 
