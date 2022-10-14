@@ -17,7 +17,8 @@
         "color": {"field": "Entity", "type": "nominal", "legend":{"orient": "none", "legendX":10, "legendY":5}, "scale": {"scheme": "tableau20"}},
         
         "y": {"field": "SSTA","type": "quantitative", "scale": {"domain": [-1, 1]}},
-        "tooltip":[{"field": "Year", "type": "temporal", "title": "value"},
+        "tooltip":[{"field": "Year", "type": "temporal", "title": "Date"},
+                   {"field": "Entity", "type": "nominal", "title": "Location"},
                    {"field": "SSTA", "type": "quantitative", "title": "value",
                    "format":".2f"}]
       }
